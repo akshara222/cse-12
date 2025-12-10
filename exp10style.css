@@ -1,0 +1,55 @@
+body { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: Arial, Helvetica, sans-serif; 
+} 
+.navb { 
+  width: 100%; 
+  background: black; 
+  color: white; 
+  padding: 15px 30px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+} 
+.logo { 
+  font-size: 22px; 
+  font-weight: bold; 
+} 
+.menu { 
+  list-style: none; 
+  display: flex; 
+  gap: 25px; 
+} 
+.menu li a { 
+  text-decoration: none; 
+  color: white; 
+  font-size: 16px; 
+} 
+.extra a { 
+  margin-left: 20px; 
+  color: white; 
+  text-decoration: none; 
+  font-size: 16px; 
+} 
+header h1 { 
+  margin: 0; 
+} 
+header { 
+  margin: 0; 
+} 
+.hamburger { 
+  display: none; 
+} 
+@media (max-width: 768px) { 
+  .menu { 
+    display: none; 
+    position: static; 
+  } 
+  .hamburger { 
+    display: flex; 
+    font-size: 20px; 
+    cursor: pointer; 
+  } 
+} 
